@@ -1,0 +1,79 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font: normal 15pt Arial;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh
+}
+
+.body.night {
+  background-color: rgb(0, 20, 87);
+  background: linear-gradient(90deg, rgba(0,0,0,.7),rgba(0,0,0,.7)), url(./img/night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body.afternoon {
+  background-color: rgb(248, 170, 0);
+  background: linear-gradient(90deg, rgba(0,0,0,.7), rgba(0,0,0,.7)), url(./img/afternoon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body.day{
+  background-color: rgb(233, 218, 0);
+  background: linear-gradient(90deg, rgba(0,0,0,.7), rgba(0,0,0,.7)), url(./img/day.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.header h1 {
+  color: white;
+}
+
+.main {
+  display: flex;
+  border-radius: 10px;
+  max-width: 960px;
+  width: 50%;
+  height: 400px;
+  align-items: center;
+  /* background-color: #fff; */
+  margin: 0 auto;
+  margin: .8rem 0px .8rem 0px;
+  align-items: center;
+}
+
+.main .circle{
+  background-color: black;
+  width: 50%;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 2rem;
+
+}
+
+.main p {
+  text-align: center;
+  margin-top: .8rem;
+}
+#msg {
+  color: #fff;
+  font-size: 10rem;
+  text-align: center;
+  max-width: 0 auto;
+}
+
+footer p a{
+  color: #fff;
+  text-decoration: none;
+}
